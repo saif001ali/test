@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        audio {
+            width: 25%;
+            position: relative;
+            left: 140px;
+            bottom: 65px;
+        }
+
+        table {
+            width: 45%;
+            border: 3px solid maroon;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Audio 1: </h1><audio src="media/Goat.mp3" controls></audio>
+    <h1>Audio 2: </h1><audio src="media/Cow.mp3" controls></audio>
+    <h1>The power of privacy</h1>
+    <video src="media/Privacy.mp4" controls width="400px"></video>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ea9ZXvGtM7A" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>House name</th>
+            <th>Occupation</th>
+            <th>Marital Status</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Babu</td>
+                <td>Unknown</td>
+                <td>Teacher</td>
+                <td>&#128522;</td>
+            </tr>
+            <tr>
+                <td>Meherab</td>
+                <td>Unknown</td>
+                <td>Junior Developer</td>
+                <td>&#128557;</td>
+            </tr>
+            <tr>
+                <td>Sarjis</td>
+                <td>Khandakar Villa</td>
+                <td>Senior Developer</td>
+                <td>&#128522;</td>
+            </tr>
+            <tr>
+                <td>Saif</td>
+                <td>Epic Protetee</td>
+                <td>Bekar &#128557;</td>
+                <td>&#128557;</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Lunch Menu</h1>
+    <form action="">
+        <p>Name: <input type="text" name="lunch" placeholder="Enter name" id=""></p>
+        <p>Email: <input type="text" name="lunch" placeholder="Enter email" id=""></p>
+        <p>Mobile: <input type="number" name="lunch" placeholder="Enter mobile" id=""></p>
+
+        <fieldset>
+            <legend>Rice</legend>
+            <p><label for="biryani"><input type="radio" name="rice" id="biryani">Biryani</label></p>
+            <p><label for="polau"><input type="radio" name="rice" id="polau">Polau</label></p>
+            <p><label for="khichuri"><input type="radio" name="rice" id="khichuri">Khichuri</label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Protein Choice</legend>
+            <p><label for="beef"><input type="radio" name="protein" id="beef">Biryani</label></p>
+            <p><label for="mutton"><input type="radio" name="protein" id="mutton">Polau</label></p>
+            <p><label for="chicken"><input type="radio" name="protein" id="chicken">Khichuri</label></p>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
